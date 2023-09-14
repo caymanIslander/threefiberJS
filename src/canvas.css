@@ -1,0 +1,32 @@
+
+.test {
+    font-size: xx-large;
+    color: red;
+}
+
+.container p {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .test {
+        font-size: large;
+        color: blue;
+    }
+    .container {
+        flex: 1;
+        flex-direction: column;
+        color: brown;
+    } 
+
+    .container p {
+        color: red;
+    }
+    .container {
+        flex-direction: row;
+    }
+         
+}
